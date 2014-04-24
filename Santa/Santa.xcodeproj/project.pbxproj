@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F51C1C331900595C00C53DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C321900595C00C53DE1 /* Foundation.framework */; };
+		F51C1C351900595C00C53DE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C341900595C00C53DE1 /* CoreGraphics.framework */; };
+		F51C1C371900595C00C53DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C361900595C00C53DE1 /* UIKit.framework */; };
+		F51C1C3D1900595C00C53DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C3B1900595C00C53DE1 /* InfoPlist.strings */; };
+		F51C1C3F1900595C00C53DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C1C3E1900595C00C53DE1 /* main.m */; };
+		F51C1C431900595C00C53DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C1C421900595C00C53DE1 /* AppDelegate.m */; };
+		F51C1C461900595D00C53DE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C441900595D00C53DE1 /* Main.storyboard */; };
+		F51C1C491900595D00C53DE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C1C481900595D00C53DE1 /* ViewController.m */; };
+		F51C1C4B1900595E00C53DE1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C4A1900595E00C53DE1 /* Images.xcassets */; };
+		F51C1C521900595E00C53DE1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C511900595E00C53DE1 /* XCTest.framework */; };
+		F51C1C531900595E00C53DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C321900595C00C53DE1 /* Foundation.framework */; };
+		F51C1C541900595E00C53DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1C361900595C00C53DE1 /* UIKit.framework */; };
+		F51C1C5C1900595E00C53DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C5A1900595E00C53DE1 /* InfoPlist.strings */; };
+		F51C1C5E1900595E00C53DE1 /* SantaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C1C5D1900595E00C53DE1 /* SantaTests.m */; };
+		F51C1C69190059C300C53DE1 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F51C1C68190059C300C53DE1 /* UIView+Category.m */; };
+		F51C1C8519005AE000C53DE1 /* LumpofCoal.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C6F19005AE000C53DE1 /* LumpofCoal.png */; };
+		F51C1C9119005AE100C53DE1 /* present.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C8419005AE000C53DE1 /* present.png */; };
+		F51C1CB219005AFF00C53DE1 /* santaLeft1.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9319005AFF00C53DE1 /* santaLeft1.png */; };
+		F51C1CB319005AFF00C53DE1 /* santaLeft10.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9419005AFF00C53DE1 /* santaLeft10.png */; };
+		F51C1CB419005AFF00C53DE1 /* santaLeft11.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9519005AFF00C53DE1 /* santaLeft11.png */; };
+		F51C1CB519005AFF00C53DE1 /* santaLeft12.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9619005AFF00C53DE1 /* santaLeft12.png */; };
+		F51C1CB619005AFF00C53DE1 /* santaLeft13.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9719005AFF00C53DE1 /* santaLeft13.png */; };
+		F51C1CB719005AFF00C53DE1 /* santaLeft14.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9819005AFF00C53DE1 /* santaLeft14.png */; };
+		F51C1CB819005AFF00C53DE1 /* santaLeft15.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9919005AFF00C53DE1 /* santaLeft15.png */; };
+		F51C1CB919005AFF00C53DE1 /* santaLeft2.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9A19005AFF00C53DE1 /* santaLeft2.png */; };
+		F51C1CBA19005AFF00C53DE1 /* santaLeft3.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9B19005AFF00C53DE1 /* santaLeft3.png */; };
+		F51C1CBB19005AFF00C53DE1 /* santaLeft4.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9C19005AFF00C53DE1 /* santaLeft4.png */; };
+		F51C1CBC19005AFF00C53DE1 /* santaLeft5.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9D19005AFF00C53DE1 /* santaLeft5.png */; };
+		F51C1CBD19005AFF00C53DE1 /* santaLeft6.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9E19005AFF00C53DE1 /* santaLeft6.png */; };
+		F51C1CBE19005AFF00C53DE1 /* santaLeft7.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1C9F19005AFF00C53DE1 /* santaLeft7.png */; };
+		F51C1CBF19005AFF00C53DE1 /* santaLeft8.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA019005AFF00C53DE1 /* santaLeft8.png */; };
+		F51C1CC019005AFF00C53DE1 /* santaLeft9.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA119005AFF00C53DE1 /* santaLeft9.png */; };
+		F51C1CC119005AFF00C53DE1 /* santa1.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA319005AFF00C53DE1 /* santa1.png */; };
+		F51C1CC219005AFF00C53DE1 /* santa2.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA419005AFF00C53DE1 /* santa2.png */; };
+		F51C1CC319005AFF00C53DE1 /* santa3.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA519005AFF00C53DE1 /* santa3.png */; };
+		F51C1CC419005AFF00C53DE1 /* santa4.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA619005AFF00C53DE1 /* santa4.png */; };
+		F51C1CC519005AFF00C53DE1 /* santa5.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA719005AFF00C53DE1 /* santa5.png */; };
+		F51C1CC619005AFF00C53DE1 /* santa6.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA819005AFF00C53DE1 /* santa6.png */; };
+		F51C1CC719005AFF00C53DE1 /* santa7.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CA919005AFF00C53DE1 /* santa7.png */; };
+		F51C1CC819005AFF00C53DE1 /* santa8.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAA19005AFF00C53DE1 /* santa8.png */; };
+		F51C1CC919005AFF00C53DE1 /* santa9.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAB19005AFF00C53DE1 /* santa9.png */; };
+		F51C1CCA19005AFF00C53DE1 /* santa10.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAC19005AFF00C53DE1 /* santa10.png */; };
+		F51C1CCB19005AFF00C53DE1 /* santa11.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAD19005AFF00C53DE1 /* santa11.png */; };
+		F51C1CCC19005AFF00C53DE1 /* santa12.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAE19005AFF00C53DE1 /* santa12.png */; };
+		F51C1CCD19005AFF00C53DE1 /* santa13.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CAF19005AFF00C53DE1 /* santa13.png */; };
+		F51C1CCE19005AFF00C53DE1 /* santa14.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CB019005AFF00C53DE1 /* santa14.png */; };
+		F51C1CCF19005AFF00C53DE1 /* santa15.png in Resources */ = {isa = PBXBuildFile; fileRef = F51C1CB119005AFF00C53DE1 /* santa15.png */; };
+		F51C1CD119005BB200C53DE1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51C1CD019005BB200C53DE1 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F51C1C551900595E00C53DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F51C1C271900595C00C53DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51C1C2E1900595C00C53DE1;
+			remoteInfo = Santa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F51C1C2F1900595C00C53DE1 /* Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C1C321900595C00C53DE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F51C1C341900595C00C53DE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F51C1C361900595C00C53DE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F51C1C3A1900595C00C53DE1 /* Santa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santa-Info.plist"; sourceTree = "<group>"; };
+		F51C1C3C1900595C00C53DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F51C1C3E1900595C00C53DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F51C1C401900595C00C53DE1 /* Santa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Santa-Prefix.pch"; sourceTree = "<group>"; };
+		F51C1C411900595C00C53DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F51C1C421900595C00C53DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F51C1C451900595D00C53DE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F51C1C471900595D00C53DE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F51C1C481900595D00C53DE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F51C1C4A1900595E00C53DE1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Santa/Images.xcassets; sourceTree = "<group>"; };
+		F51C1C501900595E00C53DE1 /* SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51C1C511900595E00C53DE1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F51C1C591900595E00C53DE1 /* SantaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SantaTests-Info.plist"; sourceTree = "<group>"; };
+		F51C1C5B1900595E00C53DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F51C1C5D1900595E00C53DE1 /* SantaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SantaTests.m; sourceTree = "<group>"; };
+		F51C1C67190059C300C53DE1 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F51C1C68190059C300C53DE1 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		F51C1C6F19005AE000C53DE1 /* LumpofCoal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LumpofCoal.png; sourceTree = "<group>"; };
+		F51C1C8419005AE000C53DE1 /* present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = present.png; sourceTree = "<group>"; };
+		F51C1C9319005AFF00C53DE1 /* santaLeft1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft1.png; sourceTree = "<group>"; };
+		F51C1C9419005AFF00C53DE1 /* santaLeft10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft10.png; sourceTree = "<group>"; };
+		F51C1C9519005AFF00C53DE1 /* santaLeft11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft11.png; sourceTree = "<group>"; };
+		F51C1C9619005AFF00C53DE1 /* santaLeft12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft12.png; sourceTree = "<group>"; };
+		F51C1C9719005AFF00C53DE1 /* santaLeft13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft13.png; sourceTree = "<group>"; };
+		F51C1C9819005AFF00C53DE1 /* santaLeft14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft14.png; sourceTree = "<group>"; };
+		F51C1C9919005AFF00C53DE1 /* santaLeft15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft15.png; sourceTree = "<group>"; };
+		F51C1C9A19005AFF00C53DE1 /* santaLeft2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft2.png; sourceTree = "<group>"; };
+		F51C1C9B19005AFF00C53DE1 /* santaLeft3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft3.png; sourceTree = "<group>"; };
+		F51C1C9C19005AFF00C53DE1 /* santaLeft4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft4.png; sourceTree = "<group>"; };
+		F51C1C9D19005AFF00C53DE1 /* santaLeft5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft5.png; sourceTree = "<group>"; };
+		F51C1C9E19005AFF00C53DE1 /* santaLeft6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft6.png; sourceTree = "<group>"; };
+		F51C1C9F19005AFF00C53DE1 /* santaLeft7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft7.png; sourceTree = "<group>"; };
+		F51C1CA019005AFF00C53DE1 /* santaLeft8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft8.png; sourceTree = "<group>"; };
+		F51C1CA119005AFF00C53DE1 /* santaLeft9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santaLeft9.png; sourceTree = "<group>"; };
+		F51C1CA319005AFF00C53DE1 /* santa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa1.png; sourceTree = "<group>"; };
+		F51C1CA419005AFF00C53DE1 /* santa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa2.png; sourceTree = "<group>"; };
+		F51C1CA519005AFF00C53DE1 /* santa3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa3.png; sourceTree = "<group>"; };
+		F51C1CA619005AFF00C53DE1 /* santa4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa4.png; sourceTree = "<group>"; };
+		F51C1CA719005AFF00C53DE1 /* santa5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa5.png; sourceTree = "<group>"; };
+		F51C1CA819005AFF00C53DE1 /* santa6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa6.png; sourceTree = "<group>"; };
+		F51C1CA919005AFF00C53DE1 /* santa7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa7.png; sourceTree = "<group>"; };
+		F51C1CAA19005AFF00C53DE1 /* santa8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa8.png; sourceTree = "<group>"; };
+		F51C1CAB19005AFF00C53DE1 /* santa9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa9.png; sourceTree = "<group>"; };
+		F51C1CAC19005AFF00C53DE1 /* santa10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa10.png; sourceTree = "<group>"; };
+		F51C1CAD19005AFF00C53DE1 /* santa11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa11.png; sourceTree = "<group>"; };
+		F51C1CAE19005AFF00C53DE1 /* santa12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa12.png; sourceTree = "<group>"; };
+		F51C1CAF19005AFF00C53DE1 /* santa13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa13.png; sourceTree = "<group>"; };
+		F51C1CB019005AFF00C53DE1 /* santa14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa14.png; sourceTree = "<group>"; };
+		F51C1CB119005AFF00C53DE1 /* santa15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santa15.png; sourceTree = "<group>"; };
+		F51C1CD019005BB200C53DE1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F51C1C2C1900595C00C53DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1CD119005BB200C53DE1 /* CoreMotion.framework in Frameworks */,
+				F51C1C351900595C00C53DE1 /* CoreGraphics.framework in Frameworks */,
+				F51C1C371900595C00C53DE1 /* UIKit.framework in Frameworks */,
+				F51C1C331900595C00C53DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1C4D1900595E00C53DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1C521900595E00C53DE1 /* XCTest.framework in Frameworks */,
+				F51C1C541900595E00C53DE1 /* UIKit.framework in Frameworks */,
+				F51C1C531900595E00C53DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F51C1C261900595C00C53DE1 = {
+			isa = PBXGroup;
+			children = (
+				F51C1C6A19005A0900C53DE1 /* Resources */,
+				F51C1C381900595C00C53DE1 /* Santa */,
+				F571DC741909A4D500757454 /* Ignore */,
+			);
+			sourceTree = "<group>";
+		};
+		F51C1C301900595C00C53DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C2F1900595C00C53DE1 /* Santa.app */,
+				F51C1C501900595E00C53DE1 /* SantaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51C1C311900595C00C53DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CD019005BB200C53DE1 /* CoreMotion.framework */,
+				F51C1C321900595C00C53DE1 /* Foundation.framework */,
+				F51C1C341900595C00C53DE1 /* CoreGraphics.framework */,
+				F51C1C361900595C00C53DE1 /* UIKit.framework */,
+				F51C1C511900595E00C53DE1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F51C1C381900595C00C53DE1 /* Santa */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C411900595C00C53DE1 /* AppDelegate.h */,
+				F51C1C421900595C00C53DE1 /* AppDelegate.m */,
+				F51C1C471900595D00C53DE1 /* ViewController.h */,
+				F51C1C481900595D00C53DE1 /* ViewController.m */,
+				F51C1C67190059C300C53DE1 /* UIView+Category.h */,
+				F51C1C68190059C300C53DE1 /* UIView+Category.m */,
+			);
+			path = Santa;
+			sourceTree = "<group>";
+		};
+		F51C1C391900595C00C53DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C3A1900595C00C53DE1 /* Santa-Info.plist */,
+				F51C1C3B1900595C00C53DE1 /* InfoPlist.strings */,
+				F51C1C3E1900595C00C53DE1 /* main.m */,
+				F51C1C401900595C00C53DE1 /* Santa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = Santa;
+			sourceTree = "<group>";
+		};
+		F51C1C571900595E00C53DE1 /* SantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C5D1900595E00C53DE1 /* SantaTests.m */,
+				F51C1C581900595E00C53DE1 /* Supporting Files */,
+			);
+			path = SantaTests;
+			sourceTree = "<group>";
+		};
+		F51C1C581900595E00C53DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C591900595E00C53DE1 /* SantaTests-Info.plist */,
+				F51C1C5A1900595E00C53DE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51C1C6A19005A0900C53DE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C441900595D00C53DE1 /* Main.storyboard */,
+				F51C1C9219005AFF00C53DE1 /* santaleft */,
+				F51C1CA219005AFF00C53DE1 /* santaRight */,
+				F51C1C6F19005AE000C53DE1 /* LumpofCoal.png */,
+				F51C1C8419005AE000C53DE1 /* present.png */,
+				F51C1C4A1900595E00C53DE1 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F51C1C9219005AFF00C53DE1 /* santaleft */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C9319005AFF00C53DE1 /* santaLeft1.png */,
+				F51C1C9419005AFF00C53DE1 /* santaLeft10.png */,
+				F51C1C9519005AFF00C53DE1 /* santaLeft11.png */,
+				F51C1C9619005AFF00C53DE1 /* santaLeft12.png */,
+				F51C1C9719005AFF00C53DE1 /* santaLeft13.png */,
+				F51C1C9819005AFF00C53DE1 /* santaLeft14.png */,
+				F51C1C9919005AFF00C53DE1 /* santaLeft15.png */,
+				F51C1C9A19005AFF00C53DE1 /* santaLeft2.png */,
+				F51C1C9B19005AFF00C53DE1 /* santaLeft3.png */,
+				F51C1C9C19005AFF00C53DE1 /* santaLeft4.png */,
+				F51C1C9D19005AFF00C53DE1 /* santaLeft5.png */,
+				F51C1C9E19005AFF00C53DE1 /* santaLeft6.png */,
+				F51C1C9F19005AFF00C53DE1 /* santaLeft7.png */,
+				F51C1CA019005AFF00C53DE1 /* santaLeft8.png */,
+				F51C1CA119005AFF00C53DE1 /* santaLeft9.png */,
+			);
+			path = santaleft;
+			sourceTree = "<group>";
+		};
+		F51C1CA219005AFF00C53DE1 /* santaRight */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1CA319005AFF00C53DE1 /* santa1.png */,
+				F51C1CA419005AFF00C53DE1 /* santa2.png */,
+				F51C1CA519005AFF00C53DE1 /* santa3.png */,
+				F51C1CA619005AFF00C53DE1 /* santa4.png */,
+				F51C1CA719005AFF00C53DE1 /* santa5.png */,
+				F51C1CA819005AFF00C53DE1 /* santa6.png */,
+				F51C1CA919005AFF00C53DE1 /* santa7.png */,
+				F51C1CAA19005AFF00C53DE1 /* santa8.png */,
+				F51C1CAB19005AFF00C53DE1 /* santa9.png */,
+				F51C1CAC19005AFF00C53DE1 /* santa10.png */,
+				F51C1CAD19005AFF00C53DE1 /* santa11.png */,
+				F51C1CAE19005AFF00C53DE1 /* santa12.png */,
+				F51C1CAF19005AFF00C53DE1 /* santa13.png */,
+				F51C1CB019005AFF00C53DE1 /* santa14.png */,
+				F51C1CB119005AFF00C53DE1 /* santa15.png */,
+			);
+			path = santaRight;
+			sourceTree = "<group>";
+		};
+		F571DC741909A4D500757454 /* Ignore */ = {
+			isa = PBXGroup;
+			children = (
+				F51C1C391900595C00C53DE1 /* Supporting Files */,
+				F51C1C571900595E00C53DE1 /* SantaTests */,
+				F51C1C311900595C00C53DE1 /* Frameworks */,
+				F51C1C301900595C00C53DE1 /* Products */,
+			);
+			name = Ignore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F51C1C2E1900595C00C53DE1 /* Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C1C611900595E00C53DE1 /* Build configuration list for PBXNativeTarget "Santa" */;
+			buildPhases = (
+				F51C1C2B1900595C00C53DE1 /* Sources */,
+				F51C1C2C1900595C00C53DE1 /* Frameworks */,
+				F51C1C2D1900595C00C53DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Santa;
+			productName = Santa;
+			productReference = F51C1C2F1900595C00C53DE1 /* Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F51C1C4F1900595E00C53DE1 /* SantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C1C641900595E00C53DE1 /* Build configuration list for PBXNativeTarget "SantaTests" */;
+			buildPhases = (
+				F51C1C4C1900595E00C53DE1 /* Sources */,
+				F51C1C4D1900595E00C53DE1 /* Frameworks */,
+				F51C1C4E1900595E00C53DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F51C1C561900595E00C53DE1 /* PBXTargetDependency */,
+			);
+			name = SantaTests;
+			productName = SantaTests;
+			productReference = F51C1C501900595E00C53DE1 /* SantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F51C1C271900595C00C53DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JimmyBouker;
+				TargetAttributes = {
+					F51C1C4F1900595E00C53DE1 = {
+						TestTargetID = F51C1C2E1900595C00C53DE1;
+					};
+				};
+			};
+			buildConfigurationList = F51C1C2A1900595C00C53DE1 /* Build configuration list for PBXProject "Santa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F51C1C261900595C00C53DE1;
+			productRefGroup = F51C1C301900595C00C53DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F51C1C2E1900595C00C53DE1 /* Santa */,
+				F51C1C4F1900595E00C53DE1 /* SantaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F51C1C2D1900595C00C53DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1CBF19005AFF00C53DE1 /* santaLeft8.png in Resources */,
+				F51C1CC219005AFF00C53DE1 /* santa2.png in Resources */,
+				F51C1CCD19005AFF00C53DE1 /* santa13.png in Resources */,
+				F51C1CBA19005AFF00C53DE1 /* santaLeft3.png in Resources */,
+				F51C1CB219005AFF00C53DE1 /* santaLeft1.png in Resources */,
+				F51C1CB319005AFF00C53DE1 /* santaLeft10.png in Resources */,
+				F51C1CC719005AFF00C53DE1 /* santa7.png in Resources */,
+				F51C1C4B1900595E00C53DE1 /* Images.xcassets in Resources */,
+				F51C1CB719005AFF00C53DE1 /* santaLeft14.png in Resources */,
+				F51C1CCF19005AFF00C53DE1 /* santa15.png in Resources */,
+				F51C1CB919005AFF00C53DE1 /* santaLeft2.png in Resources */,
+				F51C1CBB19005AFF00C53DE1 /* santaLeft4.png in Resources */,
+				F51C1CB519005AFF00C53DE1 /* santaLeft12.png in Resources */,
+				F51C1CBC19005AFF00C53DE1 /* santaLeft5.png in Resources */,
+				F51C1CC519005AFF00C53DE1 /* santa5.png in Resources */,
+				F51C1CC919005AFF00C53DE1 /* santa9.png in Resources */,
+				F51C1CCA19005AFF00C53DE1 /* santa10.png in Resources */,
+				F51C1CCE19005AFF00C53DE1 /* santa14.png in Resources */,
+				F51C1C3D1900595C00C53DE1 /* InfoPlist.strings in Resources */,
+				F51C1CB819005AFF00C53DE1 /* santaLeft15.png in Resources */,
+				F51C1CBD19005AFF00C53DE1 /* santaLeft6.png in Resources */,
+				F51C1CBE19005AFF00C53DE1 /* santaLeft7.png in Resources */,
+				F51C1CC819005AFF00C53DE1 /* santa8.png in Resources */,
+				F51C1C9119005AE100C53DE1 /* present.png in Resources */,
+				F51C1CB619005AFF00C53DE1 /* santaLeft13.png in Resources */,
+				F51C1CC419005AFF00C53DE1 /* santa4.png in Resources */,
+				F51C1CCB19005AFF00C53DE1 /* santa11.png in Resources */,
+				F51C1CCC19005AFF00C53DE1 /* santa12.png in Resources */,
+				F51C1CC019005AFF00C53DE1 /* santaLeft9.png in Resources */,
+				F51C1CC319005AFF00C53DE1 /* santa3.png in Resources */,
+				F51C1CC119005AFF00C53DE1 /* santa1.png in Resources */,
+				F51C1C461900595D00C53DE1 /* Main.storyboard in Resources */,
+				F51C1CC619005AFF00C53DE1 /* santa6.png in Resources */,
+				F51C1CB419005AFF00C53DE1 /* santaLeft11.png in Resources */,
+				F51C1C8519005AE000C53DE1 /* LumpofCoal.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1C4E1900595E00C53DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1C5C1900595E00C53DE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F51C1C2B1900595C00C53DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1C491900595D00C53DE1 /* ViewController.m in Sources */,
+				F51C1C431900595C00C53DE1 /* AppDelegate.m in Sources */,
+				F51C1C69190059C300C53DE1 /* UIView+Category.m in Sources */,
+				F51C1C3F1900595C00C53DE1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51C1C4C1900595E00C53DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C1C5E1900595E00C53DE1 /* SantaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F51C1C561900595E00C53DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F51C1C2E1900595C00C53DE1 /* Santa */;
+			targetProxy = F51C1C551900595E00C53DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F51C1C3B1900595C00C53DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C1C3C1900595C00C53DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F51C1C441900595D00C53DE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C1C451900595D00C53DE1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Santa;
+			sourceTree = "<group>";
+		};
+		F51C1C5A1900595E00C53DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F51C1C5B1900595E00C53DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F51C1C5F1900595E00C53DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F51C1C601900595E00C53DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F51C1C621900595E00C53DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa/Santa-Prefix.pch";
+				INFOPLIST_FILE = "Santa/Santa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F51C1C631900595E00C53DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa/Santa-Prefix.pch";
+				INFOPLIST_FILE = "Santa/Santa-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F51C1C651900595E00C53DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santa.app/Santa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa/Santa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SantaTests/SantaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F51C1C661900595E00C53DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santa.app/Santa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa/Santa-Prefix.pch";
+				INFOPLIST_FILE = "SantaTests/SantaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F51C1C2A1900595C00C53DE1 /* Build configuration list for PBXProject "Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1C5F1900595E00C53DE1 /* Debug */,
+				F51C1C601900595E00C53DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C1C611900595E00C53DE1 /* Build configuration list for PBXNativeTarget "Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1C621900595E00C53DE1 /* Debug */,
+				F51C1C631900595E00C53DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C1C641900595E00C53DE1 /* Build configuration list for PBXNativeTarget "SantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F51C1C651900595E00C53DE1 /* Debug */,
+				F51C1C661900595E00C53DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F51C1C271900595C00C53DE1 /* Project object */;
+}
